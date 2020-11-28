@@ -16,7 +16,7 @@ namespace MaximumProblemGenerics
             Array.Sort(values);
             return values;
         }
-        void add(params int[] a)
+        void Add(params int[] a)
         {
 
         }
@@ -25,6 +25,11 @@ namespace MaximumProblemGenerics
             dataType[] sortedArray = Sort(this.array);
 
             return sortedArray[sortedArray.Length - 1];
+        }
+        public void PrintMax()
+        {
+            dataType[] sortedArray = Sort(this.array);
+            Console.WriteLine(sortedArray[sortedArray.Length - 1]);
         }
     }
 }
