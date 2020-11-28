@@ -5,7 +5,7 @@ namespace MaximumProblemGenerics
 {
     class MaximumNumberCheck
     {
-        public static float MaximumNumber(float firstValue, float secondValue, float thirdValue)
+        public static string MaximumNumber(string firstValue, string secondValue, string thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
                firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
